@@ -204,7 +204,6 @@ h6 {
 
 #intro .intro-content h2 span {
   color: #fa6603;
-  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
@@ -681,7 +680,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-
 /* Our Portfolio Section
 --------------------------------*/
 #portfolio {
@@ -741,8 +739,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
-
 
 /* Call To Action Section
 --------------------------------*/
@@ -815,26 +811,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
-
 }
 
 #team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
-
 }
 
 #team .member span {
   font-style: italic;
   display: block;
   font-size: 13px;
-
 }
 
 #team .member .social {
   margin-top: 5px;
-
 }
 
 #team .member .social a {
@@ -893,7 +885,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (min-width: 768px) {
-
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -906,11 +897,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
-}
-
-#contact #google-map {
-  height: 290px;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 576px) {
@@ -974,7 +960,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #fa6603;
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -1081,4 +1066,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 .flat .plan:hover li.plan-name,
 .flat .plan.featured.plan-name {
   background: #fa6603 !important;
+}
+
+#whatsapp{
+  height: 60px;
+  width: 60px;
+  text-align: left;
+  position: relative;
+  left: 1250px;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
